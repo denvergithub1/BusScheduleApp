@@ -7,8 +7,8 @@ library(DT)
 
 # Authenticate and load sheet
 
-gs4_auth(path = "minibusschedule-22c11059254e.json")  
-sheet_id <- "https://docs.google.com/spreadsheets/d/11qbR5cYRAL5-qbFn4ox2rUYbznNW-wz6H6jAwmadUns/edit?gid=0#gid=0"
+gs4_auth(path = "...")  
+sheet_id <- "..."
 
 get_authorized_drivers <- function() {
 # Read authorized drivers
